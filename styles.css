@@ -92,14 +92,19 @@ header .social {
   justify-content: end;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .background {
   position: absolute;
   background-color: var(--accent-colour);
-  height: 200%;
-  width: 120%;
+  height: 105%;
+  width: 130%;
+  left: -15%;
+  top: -10%;
   z-index: -1;
-  transform-origin: center;
-  transform: rotate(-6deg) translate(-10%, -32%);
+  transform: rotate(-4deg);
   box-shadow: 1px 3px 5px 1px gray;
 }
 
@@ -168,13 +173,16 @@ h2 {
 }
 
 @media (max-width: 650px){
-  header{
+  header {
     flex-direction: column;
+    overflow: hidden;
   }
   
   header .background {
-    transform-origin: top left;
-    transform: rotate(70deg) translate(-10%, -25%);
+    transform: rotate(10deg) translateY(-10%);
+    width: 120%;
+    left: -10%;
+    height: 140%;
   }
 
   .about {
