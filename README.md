@@ -2,7 +2,7 @@
 Homepage project from the Odin Project course
 
 ## Description
-This project mostly deals with creating a responsive design to accommodate for different screens and devices. [View the project live](https://383myrtle.github.io/odin-homepage/).
+This project mostly deals with creating a responsive design to accommodate for different screens and devices. [View the project live](https://admyazeed.github.io/odin-homepage/).
 
 ## Features
 - Fully responsive layout that adapts to various screen sizes and devices.
